@@ -21,7 +21,7 @@ pipeline {
             }
         }
 
-    docker.withRegistry('https://registry.hub.docker.com', 'soumyade1999') {
+    docker.withRegistry('https://hub.docker.com', 'soumyade1999') {
 
         def customImage = docker.build("satymywebapp")
 
