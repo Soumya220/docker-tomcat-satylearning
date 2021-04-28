@@ -29,3 +29,4 @@ pipeline {
         customImage.push()
     }
 }
+}
